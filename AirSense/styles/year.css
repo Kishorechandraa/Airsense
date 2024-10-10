@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .sidebar {
+    width: 10%;
+    background: linear-gradient(90deg, royalblue 0%, #a616e8 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .sidebar li {
+    margin-bottom: 20px;
+  }
+
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    color: black;
+  }
+
+  .sidebar a.link {
+    color: black;
+    font-weight: bold;
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+  }
+
+  .chart-container {
+    display: flex;
+    flex: 1;
+  }
+
+  .chart {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+    background: lavender;
+  }
+
+  .chart h2 {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .chart-stats {
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+    align-items: center;
+  }
+
+  .chart-stats div {
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 21px;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    background-color: ghostwhite;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .chart-stats p {
+    margin: 0;
+  }
+
+  select {
+    margin-left: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .update {
+    background: #a616e8;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+
+  .update:hover {
+    color: black;
+  }
